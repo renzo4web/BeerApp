@@ -1,0 +1,47 @@
+$body-color: slateblue;
+
+@import '_globals';
+@import '_normalize';
+@import '_nav';
+@import '_container';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  color: $body-color;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  margin: 0;
+  padding: 1em;
+  font-size: 2.3rem;
+  background-color: $heroBackground;
+  color: #fff;
+}
+
+footer {
+  background-color: $footerBackground;
+  width: 100vw;
+  text-align: center;
+
+  a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

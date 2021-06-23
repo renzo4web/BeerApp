@@ -1,33 +1,17 @@
-# Webpack Frontend Starterkit
 
-[![Dependabot badge](https://flat.badgen.net/dependabot/wbkd/webpack-starter?icon=dependabot)](https://dependabot.com/)
+# Beer App
 
-A lightweight foundation for your next webpack based frontend project.
+App to combine beer with food , where you can filter by alcohol level and hoppiness, thanks to punkapi.com
 
-### Installation
 
-```
-npm install
-```
 
-### Start Dev Server
+## Screenshots
 
-```
-npm start
-```
+![App Screenshot](https://res.cloudinary.com/turbopila/image/upload/v1624459464/beerApp_rx5ewt.png)
 
-### Build Prod Version
+  
+## Demo
 
-```
-npm run build
-```
+Insert gif or link to demo
 
-### Features:
-
-- ES6 Support via [babel](https://babeljs.io/) (v7)
-- JavaScript Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
-- SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-- Autoprefixing of browserspecific CSS rules via [postcss](https://postcss.org/) and [autoprefixer](https://github.com/postcss/autoprefixer)
-- Style Linting via [stylelint](https://stylelint.io/)
-
-When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
+https://renzo4web.github.io/BeerApp/
